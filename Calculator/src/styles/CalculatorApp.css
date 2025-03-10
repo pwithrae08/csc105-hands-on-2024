@@ -1,0 +1,107 @@
+h1{
+    color:#000000;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    }
+
+.result{
+    color:#4c4c4c;
+    font-weight: bold;
+    padding: 8px;
+    width: 350px;
+    background-color: #d4d4d4;
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #b8b8b8;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #49484e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.CalculatorApp {
+    padding: 30px 100px;
+    border-radius: 10px;
+    background-color: #f3f3f3; 
+    border-color: #49484e;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);  
+}
+
+.operator{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+
+input {
+    color: #000000;
+    padding: 12px;
+    margin-right: 12px;
+    width: 70%;
+    background-color: #f0f0f0;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+}
+.add-input{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+button{
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #4691dc ;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #343434;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #336699  ;
+}
+
+.resets{
+    display: flex;
+    justify-content: center;
+    margin-top: -15px;
+}
+.reset-result{
+    font-weight: bold; 
+    color: white;
+    padding: 8px 20px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: #d84040;
+    border: 1px solid #343434;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.reset-result:hover{
+    background-color: #a02f2f;
+}
+
