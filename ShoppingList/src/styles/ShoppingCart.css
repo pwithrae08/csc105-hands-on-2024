@@ -1,0 +1,119 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+.container {
+  
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ShoppingCart {
+  padding: 100px;
+  border-radius: 7px;
+  background-color: #ffffff; 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);  
+}
+
+input {
+  padding: 10px;
+  margin-right: 12px;
+  color: #fff;
+  width: 70%;
+  border: 1px solid #444444;
+  background-color: #262626;
+  border-radius: 7px;
+}
+
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #3dcb57;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2dad65;
+}
+
+.remove{
+  font-weight: bold;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #cb3d3d;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+
+.remove:hover{
+  background-color: #a22929;
+}
+
+.edit{
+  font-weight: bold;
+  font-size: medium;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #f9c844;
+  color: #000000;
+  border: none;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+
+.edit:hover{
+  background-color: #db922c;
+}
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px -10px;
+  padding: 5px 25px;
+  border-radius: 7px;
+  background-color: #f3f3f3;
+  transition: background-color 0.3s ease;
+}
+
+
+li span {
+  cursor: pointer;
+}
+
+li span.complete {
+  text-decoration: line-through;
+  color: green;
+}
+
+li:hover {
+  background-color: #aeffd0d8; 
+}
