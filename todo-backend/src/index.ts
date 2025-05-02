@@ -1,7 +1,6 @@
 import { serve } from '@hono/node-server'
 import { Hono } from 'hono'
 import { PrismaClient } from './generated/prisma/index.js'
-import { error } from 'console';
 import { mainRouter } from './routes/index.routes.ts';
 import { userRouter } from './routes/user.routes.ts';
 import { todoRouter } from './routes/todo.routes.ts';
